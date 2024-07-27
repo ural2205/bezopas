@@ -1,6 +1,6 @@
 
 
-EasyScan is a Python script that analyzes the security of a given website by inspecting its HTTP headers and DNS records. The script generates a security report with recommendations for addressing potential vulnerabilities.
+SCAN is a Python script that analyzes the security of a given website by inspecting its HTTP headers and DNS records. The script generates a security report with recommendations for addressing potential vulnerabilities.
 
 ## Test Cases
 
@@ -75,8 +75,4 @@ Access-Control-Allow-Origin  Misconfigured   High       Restrict the 'Access-Con
 Cache-Control                Insecure        Medium     Set 'Cache-Control' header to 'no-store, private' for sensitive resources to prevent caching.
 ```
 
-Keep in mind that the script may not cover all possible security scenarios, and it's recommended to perform a thorough security assessment for your website.
 
-EasyScan is also available at https://easyscan.onrender.com/
-
-If you have any questions or need a full security audit, please reach out on Twitter [@introvertmac007](https://twitter.com/introvertmac007).
